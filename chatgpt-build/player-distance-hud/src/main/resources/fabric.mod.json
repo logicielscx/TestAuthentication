@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "playerdistancehud",
+  "version": "${version}",
+  "name": "Player Distance HUD",
+  "description": "Displays the distance to the nearest other player currently loaded by the client.",
+  "authors": [
+    "Your Name"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.playerdistancehud.PlayerDistanceHudClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": ">=0.141.4+1.21.11"
+  }
+}
