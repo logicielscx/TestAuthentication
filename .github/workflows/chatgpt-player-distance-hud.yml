@@ -7,6 +7,12 @@ on:
     paths:
       - 'chatgpt-build/player-distance-hud/**'
       - '.github/workflows/chatgpt-player-distance-hud.yml'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'chatgpt-build/player-distance-hud/**'
+      - '.github/workflows/chatgpt-player-distance-hud.yml'
   workflow_dispatch:
 
 jobs:
