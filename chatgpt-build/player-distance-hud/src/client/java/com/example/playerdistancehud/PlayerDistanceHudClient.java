@@ -16,7 +16,7 @@ public final class PlayerDistanceHudClient implements ClientModInitializer {
     public static final String MOD_ID = "playerdistancehud";
 
     private static final Identifier HUD_ELEMENT_ID = Identifier.of(MOD_ID, "nearest_player_distance");
-    private static final int HUD_VERTICAL_OFFSET = 16;
+    private static final int HUD_VERTICAL_OFFSET = 10;
     private static final int TEXT_COLOR = 0xFFFFFFFF;
 
     @Override
